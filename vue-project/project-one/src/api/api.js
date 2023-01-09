@@ -4,3 +4,4 @@ import service from "@/utils/service";
 export function login(data){
     return service.post('./login',data)
 }
+
